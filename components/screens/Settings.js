@@ -9,7 +9,7 @@ const Settings = ({ navigation }) => {
 
   const handleDifficultySelect = (difficulty) => {
     setSelectedDifficulty(difficulty);
-    navigation.navigate('Home', { selectedDifficulty: difficulty }); // Pass selected difficulty to Home
+    navigation.navigate('Home', { selectedDifficulty: difficulty });
   };
 
   return (
